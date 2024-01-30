@@ -1,15 +1,17 @@
 {
-  "name": "sushi",
+  "name": "sushi-ordering-system",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "dependencies": {
-    "vite": "^5.0.8",
-    "aos": "^2.3.4"
-  },
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }
