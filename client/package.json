@@ -1,17 +1,19 @@
 {
-  "name": "sushi",
+  "name": "sushi-ordering-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "5.0.12"
+    "vite": "^4.3.9"
   },
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "node": "^20.3.1"
   }
 }

@@ -1,8 +1,8 @@
 {
-  "name": "sushi-ordering-system",
+  "name": "sushi-ordering-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "build": "cd client && npm install",
     "build3": "cd client && npm install vite",
