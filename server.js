@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 
 if (process.env.NODE_ENV === "production") {
   // Serve any static files
-  app.use(express.static("client/dist"));
+  app.use(express.static("dist"));
 
   // Serve the index.html file for all non-API routes
   app.get("*", (req, res) => {
